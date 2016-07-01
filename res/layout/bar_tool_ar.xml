@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:alpha="0.8"
+     >
+
+    <View
+        android:id="@+id/id_line"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/id_textView_ar_indexBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="2dp"
+        android:drawableTop="@drawable/ic_toolbar_index"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/index"
+        android:textColor="#2f3030"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/id_textView_ar_mapBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_line"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:drawableTop="@drawable/ic_toolbar_map"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/map"
+        android:textColor="#2f3030"
+        android:textSize="12sp" />
+
+</RelativeLayout>

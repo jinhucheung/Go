@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/map_infowindow_width"
+    android:layout_height="@dimen/map_infowindow_height"
+    android:background="@drawable/shaper_infowindow"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="3dp" >
+
+        <TextView
+            android:id="@+id/id_textView_infowindow_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#777978"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/id_imgView_infowindow_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_geopoint_del" />
+    </RelativeLayout>
+
+    <!-- 分隔线 -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/app_backgourd" />
+
+    <!-- 地址 -->
+
+    <TextView
+        android:id="@+id/id_textView_infowindow_address"
+        android:layout_width="@dimen/map_infowindow_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#777978"
+        android:textSize="12sp" />
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_layout_ar_infowindow"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:alpha="0.9"
+    android:background="@drawable/shaper_infowindow"
+    android:onClick="onClick"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="3dp" >
+
+        <TextView
+            android:id="@+id/id_textView_infowindow_ar_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:ellipsize="end"
+            android:onClick="onClick"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#777978"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/id_imgView_infowindow_navi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:onClick="onClick"
+            android:src="@drawable/ic_ar_navi" />
+    </RelativeLayout>
+
+    <!-- 分隔线 -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/app_backgourd" />
+
+    <!-- 地址 -->
+
+    <com.imagine.go.view.MarqueeTextView
+        android:id="@+id/id_textView_infowindow_ar_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxWidth="350dp"
+        android:onClick="onClick"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#777978"
+        android:textSize="12sp" />
+
+</LinearLayout>

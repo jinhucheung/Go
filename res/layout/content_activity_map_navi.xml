@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 定位按钮 -->
+
+    <ImageView
+        android:id="@+id/id_imageView_navi_locate_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.8"
+        android:background="@drawable/shaper_map_btn_rect"
+        android:contentDescription="@null"
+        android:onClick="onClick"
+        android:src="@drawable/ic_map_locate" />
+
+    <!-- 指南针 -->
+    <ImageView
+        android:id="@+id/id_imageView_navi_compass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.8"
+        android:background="@drawable/shaper_map_btn_oval"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_map_compass" />
+
+    <!-- 缩放按钮 -->
+
+    <ImageView
+        android:id="@+id/id_imageView_navi_zoomIn_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_imageView_navi_zoomOut_btn"
+        android:layout_alignEnd="@+id/id_imageView_navi_zoomOut_btn"
+        android:layout_alignRight="@+id/id_imageView_navi_zoomOut_btn"
+        android:alpha="0.8"
+        android:background="@drawable/shaper_map_btn_rect"
+        android:contentDescription="@null"
+        android:onClick="onClick"
+        android:src="@drawable/ic_map_zoom_up" />
+
+    <ImageView
+        android:id="@+id/id_imageView_navi_zoomOut_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_textView_navi_mDestinationTip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:alpha="0.8"
+        android:background="@drawable/shaper_map_btn_rect"
+        android:contentDescription="@null"
+        android:onClick="onClick"
+        android:src="@drawable/ic_map_zoom_down" />
+
+    <!-- 目的地提示文本 -->
+
+    <com.imagine.go.view.MarqueeTextView
+        android:id="@+id/id_textView_navi_mDestinationTip"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_above="@+id/id_layout_navi_navibar"
+        android:alpha="0.8"
+        android:background="@drawable/shaper_navimap_mdestation_textview_rect"
+        android:elevation="10dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#ecf0f1"
+        android:textSize="16sp" />
+
+    <include
+        android:id="@+id/id_layout_navi_navibar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tool_bar_height"
+        android:layout_alignParentBottom="true"
+        layout="@layout/bar_tool_map_navi" />
+
+</RelativeLayout>

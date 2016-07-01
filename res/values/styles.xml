@@ -1,0 +1,68 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:dropDownListViewStyle">@style/dropDownListview</item>
+    </style>
+
+    <style name="GoWindowTitleStyle">
+        <item name="android:background">@color/title_bar</item>
+    </style>
+
+    <style name="GoTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">@dimen/activity_title_bar_height</item>
+        <item name="android:windowTitleBackgroundStyle">@style/GoWindowTitleStyle</item>
+        <item name="android:dropDownListViewStyle">@style/dropDownListview</item>
+    </style>
+
+    <style name="GoNaviMapTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">@dimen/activity_navimap_title_bar_height</item>
+        <item name="android:windowTitleBackgroundStyle">@style/GoWindowTitleStyle</item>
+    </style>
+
+    <style name="GoNaviARTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">@dimen/activity_naviar_title_bar_height</item>
+        <item name="android:windowTitleBackgroundStyle">@style/GoWindowTitleStyle</item>
+    </style>
+
+    <style name="dropDownListview" parent="android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:scrollbars">none</item>
+        <item name="android:divider">@drawable/divider_dropdown</item>
+    </style>
+
+    <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <style name="bottom_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="GoCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/selector_checkbox</item>
+    </style>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">导航犬</string>
+    <string name="action_settings">Settings</string>
+    <string name="bus">公交</string>
+    <string name="food">美食</string>
+    <string name="hotel">酒店</string>
+    <string name="market">商场</string>
+    <string name="entertainment">娱乐</string>
+    <string name="viewspot">景点</string>
+    <string name="wc">厕所</string>
+    <string name="bank">银行</string>
+    <string name="hint_search">查找地点、公交、地铁</string>
+    <string name="map">地图</string>
+    <string name="camera">实景</string>
+    <string name="index">主页</string>
+    <string name="finish">结束</string>
+    <string name="browse">全览</string>
+    <string name="location">当前位置: </string>
+    <string name="road">当前道路: </string>
+    <string name="radius">范围</string>
+    <string name="weather">天气</string>
+    <string name="forecastWeather">预报天气</string>
+    <string name="na">N/A</string>
+    <string name="city_list">城市列表</string>
+    <string name="download_manage">下载管理</string>
+    <string name="hint_search_offlinemap">请输入城市名称</string>
+    <string name="hot_region">热门地区</string>
+    <string name="all_region">全部地区</string>
+    <string name="related_city">相关城市</string>
+    <string name="offlinemap_download_tip">当前为WIFI网络，切换至运营商流量会自动取消下载</string>
+    <string name="check_update">检测更新</string>
+    <string name="all_download">全部下载</string>
+    <string name="all_cancel">全部取消</string>
+    <string name="download_map">下载地图</string>
+    <string name="download_cancel">取消下载</string>
+    <string name="remove_map">删除地图</string>
+    <string name="cancel">取消</string>
+    <string name="geopoint_sign">标记地点</string>
+    <string name="amappoi">高德兴趣点</string>
+    <string name="userpoi">用户兴趣点</string>
+
+    <string-array name="slidebar_menu_array">
+        <item>搜索范围</item>
+        <item>预报天气</item>
+        <item>离线地图</item>
+        <item>标记地点</item>
+    </string-array>
+    <string-array name="offlinmap_hot_region">
+        <item>全国概要图</item>
+        <item>北京市</item>
+        <item>上海市</item>
+        <item>广州市</item>
+        <item>深圳市</item>
+        <item>成都市</item>
+        <item>杭州市</item>
+    </string-array>
+
+</resources>

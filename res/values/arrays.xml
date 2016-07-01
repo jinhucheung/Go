@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 导航指示图标 0为缺省 -->
+    <string-array name="navi_turn">
+        <item name="0">0</item>
+        <item name="1">0</item>
+        <item name="2">@drawable/ic_navi_turn_left</item>
+        <item name="3">@drawable/ic_navi_turn_right</item>
+        <item name="4">@drawable/ic_navi_turn_front_left</item>
+        <item name="5">@drawable/ic_navi_turn_front_right</item>
+        <item name="6">@drawable/ic_navi_turn_left_back_2</item>
+        <item name="7">@drawable/ic_navi_turn_right_back_2</item>
+        <item name="8">@drawable/ic_navi_turn_left_back</item>
+        <item name="9">@drawable/ic_navi_turn_front</item>
+        <item name="10">0</item>
+    </string-array>
+
+</resources>

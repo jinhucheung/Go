@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 搜索栏 -->
+
+    <com.imagine.go.view.IconEditText
+        android:id="@+id/id_editText_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="13dp"
+        android:alpha="0.8"
+        android:background="@drawable/shaper_searchbar_rect"
+        android:completionThreshold="2"
+        android:drawableEnd="@drawable/ic_searchbar_voice"
+        android:drawableLeft="@drawable/ic_searchbar_magnifier"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/ic_searchbar_voice"
+        android:drawableStart="@drawable/ic_searchbar_magnifier"
+        android:dropDownSelector="@color/black"
+        android:dropDownVerticalOffset="1dp"
+        android:elevation="5dp"
+        android:hint="@string/hint_search"
+        android:inputType="text|textAutoComplete"
+        android:paddingBottom="6dp"
+        android:paddingEnd="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="6dp"
+        android:popupBackground="@drawable/shaper_searbar_dropdown_listvivew"
+        android:singleLine="true"
+        android:textSize="14sp" />
+
+</RelativeLayout>

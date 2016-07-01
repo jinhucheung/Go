@@ -1,0 +1,22 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+
+    <style name="GoWindowTitleStyle">
+        <item name="android:background">@color/title_bar</item>
+    </style>
+
+    <style name="GoTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">@dimen/activity_title_bar_height</item>
+        <item name="android:windowTitleBackgroundStyle">@style/GoWindowTitleStyle</item>
+            <item name="android:dropDownListViewStyle">@style/dropDownListview</item>
+    </style>
+
+</resources>

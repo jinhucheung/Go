@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.imagine.go.view.ArcMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:arcmenu="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    arcmenu:childButton_gap="10dp"
+    arcmenu:childButton_padding_LeftAndRight="25dp"
+    arcmenu:childButton_padding_TopAndBottom="50dp"
+    arcmenu:mainButton_layout_marginBottom="13dp"
+    arcmenu:position="center_bottom"
+    arcmenu:radius="0dp" >
+
+    <!-- 子按钮 -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shaper_map_label_btn_oval"
+        android:contentDescription="@null"
+        android:elevation="3dp"
+        android:src="@drawable/ic_map_food"
+        android:tag="@string/food" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shaper_map_label_btn_oval_b"
+        android:contentDescription="@null"
+        android:elevation="3dp"
+        android:src="@drawable/ic_map_hotel"
+        android:tag="@string/hotel" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shaper_map_label_btn_oval_b"
+        android:contentDescription="@null"
+        android:elevation="3dp"
+        android:src="@drawable/ic_map_bank"
+        android:tag="@string/bank" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shaper_map_label_btn_oval"
+        android:contentDescription="@null"
+        android:elevation="3dp"
+        android:src="@drawable/ic_map_market"
+        android:tag="@string/market" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shaper_map_label_btn_oval_b"
+        android:contentDescription="@null"
+        android:elevation="3dp"
+        android:src="@drawable/ic_map_viewspot"
+        android:tag="@string/viewspot" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shaper_map_label_btn_oval"
+        android:contentDescription="@null"
+        android:elevation="3dp"
+        android:src="@drawable/ic_map_ktv"
+        android:tag="@string/entertainment" />
+
+    <!-- 虚拟主按钮 用于定义主按钮位置 -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:clickable="false"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_toolbar_search" />
+
+</com.imagine.go.view.ArcMenu>

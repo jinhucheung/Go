@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/id_textView_downloadTip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shaper_offlinemap_download_tip_rect"
+        android:text="@string/offlinemap_download_tip"
+        android:textColor="@color/offlinemap_hint_text"
+        android:textSize="14sp" />
+
+    <ListView
+        android:id="@+id/id_listView_downloadCity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/id_textView_downloadTip"
+        android:layout_marginTop="10dp"
+        android:divider="@null"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/bar_tool_offlinemap_download" />
+    </FrameLayout>
+
+</RelativeLayout>

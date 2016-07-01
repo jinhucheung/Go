@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res/com.imagine.go"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/id_layout_weather"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/weather_day"
+        android:orientation="vertical"
+        android:paddingBottom="5dp" >
+
+        <include
+            android:id="@+id/id_layout_weather_live"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            layout="@layout/content_activity_weather_live" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/id_viewpager_weather"
+            android:layout_width="fill_parent"
+            android:layout_height="165dp"
+            android:layout_marginTop="20dp"
+            android:overScrollMode="never"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <com.imagine.go.view.CirclePageIndicator
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/id_indicator_weather"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip" />
+
+        <com.imagine.go.view.RippleLayout
+            android:id="@+id/id_rippleLayout_playBtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            ripple:duration="500"
+            ripple:radius="10dp"
+            ripple:rippleNums="1"
+            ripple:scale="3"
+            ripple:strokeWidth="0dp"
+            ripple:color="@color/btn_title_bar_ripple" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_play" />
+        </com.imagine.go.view.RippleLayout>
+    </LinearLayout>
+
+</RelativeLayout>

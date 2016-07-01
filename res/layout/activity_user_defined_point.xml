@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:arcmenu="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_backgourd" >
+
+    <!-- 高德3D地图 层 -->
+
+    <FrameLayout
+        android:id="@+id/id_frameLayout_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_backgourd" >
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/id_mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <!-- 工具层 -->
+    <!-- 弧形菜单  搜索标签 -->
+
+    <com.imagine.go.view.ArcMenu
+        android:id="@+id/id_arcMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        arcmenu:mainButton_close_img="@drawable/ic_ar_del"
+        arcmenu:mainButton_open_img="@drawable/ic_ar_search"
+        arcmenu:position="left_bottom"
+        arcmenu:radius="140dp" >
+
+        <!-- 子按钮 -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shaper_map_label_btn_oval"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_map_food"
+            android:tag="@string/food" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shaper_map_label_btn_oval_b"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_map_hotel"
+            android:tag="@string/hotel" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shaper_map_label_btn_oval_b"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_map_bank"
+            android:tag="@string/bank" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shaper_map_label_btn_oval"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_map_market"
+            android:tag="@string/market" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shaper_map_label_btn_oval_b"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_map_viewspot"
+            android:tag="@string/viewspot" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shaper_map_label_btn_oval"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_map_ktv"
+            android:tag="@string/entertainment" />
+
+        <!-- 主按钮 -->
+
+        <ImageView
+            android:id="@+id/id_imageView_ar_searchBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.8"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_ar_search" />
+    </com.imagine.go.view.ArcMenu>
+
+    <ImageView
+        android:id="@+id/id_imageView_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:alpha="0.8"
+        android:contentDescription="@null"
+        android:onClick="onClick"
+        android:src="@drawable/ic_geopoint_select" />
+
+    <!-- 缩放按钮 -->
+
+    <ImageView
+        android:id="@+id/id_imageView_zoomIn_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_imageView_zoomOut_btn"
+        android:layout_alignEnd="@+id/id_imageView_zoomOut_btn"
+        android:layout_alignRight="@+id/id_imageView_zoomOut_btn"
+        android:alpha="0.8"
+        android:background="@drawable/shaper_map_btn_rect"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_map_zoom_up" />
+
+    <ImageView
+        android:id="@+id/id_imageView_zoomOut_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.8"
+        android:background="@drawable/shaper_map_btn_rect"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_map_zoom_down" />
+
+    <!-- 图层按钮 -->
+
+    <ImageView
+        android:id="@+id/id_imageView_layer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.8"
+        android:background="@drawable/shaper_map_btn_rect"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_map_layer_user" />
+
+</RelativeLayout>

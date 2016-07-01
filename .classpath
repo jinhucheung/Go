@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/nineoldandroids-2.4.0.jar"/>
+	<classpathentry kind="lib" path="libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="libs/AMap_Search_V3.2.1_20160308.jar"/>
+	<classpathentry kind="lib" path="libs/Msc.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="libs/AMap_3DMap_V3.3.1_20160419.jar"/>
+	<classpathentry kind="lib" path="libs/AMap_Location_V2.4.1_20160414.jar"/>
+	<classpathentry kind="lib" path="libs/AMap_Navi_v1.8.0_20160421.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shaper_offlinemap_download_toolbar_rect"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/id_textView_update"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/check_update"
+        android:textColor="@color/offlinemap_download_normal" />
+
+    <View
+        android:layout_width="0.5px"
+        android:layout_height="match_parent"
+        android:background="@color/item_normal_divider" />
+
+    <TextView
+        android:id="@+id/id_textView_download"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/all_download"
+        android:textColor="@color/offlinemap_download_normal" />
+
+    <View
+        android:layout_width="0.5px"
+        android:layout_height="match_parent"
+        android:background="@color/item_normal_divider" />
+
+    <TextView
+        android:id="@+id/id_textView_pause"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/all_cancel"
+        android:textColor="@color/offlinemap_download_normal" />
+
+</LinearLayout>
