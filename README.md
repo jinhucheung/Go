@@ -13,9 +13,7 @@
 
 项目框架
 -------------------------
-导航犬增强现实模块是基于[ProAndroidAugmentedReality](https://github.com/RaghavSood/ProAndroidAugmentedReality)框架。    
-此外，地图服务组件是使用[高德地图SDK](http://lbs.amap.com),而语音组件使用[讯飞语音](http://www.xfyun.cn)。     
-在UI设计上引入了material_menu_library和sweet-alert-dialog库。
+导航犬增强现实模块是基于[ProAndroidAugmentedReality](https://github.com/RaghavSood/ProAndroidAugmentedReality)框架。此外，地图服务组件是使用[高德地图SDK](http://lbs.amap.com),而语音组件使用[讯飞语音](http://www.xfyun.cn)。在UI设计上引入了[material_menu_library](https://github.com/balysv/material-menu)和[sweet-alert-dialog](https://github.com/pedant/sweet-alert-dialog)。
 
      
 项目引入
