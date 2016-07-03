@@ -16,8 +16,7 @@
 导航犬增强现实模块是基于[ProAndroidAugmentedReality](https://github.com/RaghavSood/ProAndroidAugmentedReality)框架。此外，地图服务组件是使用[高德地图SDK](http://lbs.amap.com),而语音组件使用[讯飞语音](http://www.xfyun.cn)。在UI设计上引入了[material_menu_library](https://github.com/balysv/material-menu)和[sweet-alert-dialog](https://github.com/pedant/sweet-alert-dialog)。
 
      
-项目引入
+项目导入
 -------------------------
-项目使用的第三库有以下:
-- [高德地图Android 地图、定位以及导航SDK](http://lbs.amap.com)
-- [讯飞语音语音听写以及语音合成SDK](http://www.xfyun.cn)
+1. 注册API KEY
+项目使用高德地图以及讯飞语音，导入项目至本地前，需要注册相应的SDK的API Key。注册完成后，高德地图API Key在[AndroidManifest.xml文件](https://github.com/HiKumho/Go/blob/master/AndroidManifest.xml#L63)写入,讯飞语音API Key在[Constants类](https://github.com/HiKumho/Go/blob/master/src/com/imagine/go/Constants.java#L14)中写入。
