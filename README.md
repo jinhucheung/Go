@@ -18,9 +18,9 @@
      
 项目导入
 -------------------------
-1. 注册API KEY
+1. 注册API KEY      
 项目使用高德地图以及讯飞语音，导入项目至本地前，需要注册相应的SDK的API Key。注册完成后，高德地图API Key在[AndroidManifest.xml文件](https://github.com/HiKumho/Go/blob/master/AndroidManifest.xml#L63)写入,讯飞语音API Key在[Constants类](https://github.com/HiKumho/Go/blob/master/src/com/imagine/go/Constants.java#L14)中写入。
-2. 引入UI库
+2. 引入UI库     
 高德地图以及讯飞语音所需要的库已经在libs中，我们还需要引入上述的两个UI库。
 
      
