@@ -27,3 +27,9 @@
 程序安装
 -------------------------
 程序要求Android4.0以上版本，点击下载[APK文件](https://raw.githubusercontent.com/HiKumho/Go/master/bin/Go.apk)
+
+License
+-------------------------
+Go is released under GPLv3.0
+
+
