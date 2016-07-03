@@ -20,4 +20,3 @@
 项目使用的第三库有以下:
 - [高德地图Android 地图、定位以及导航SDK](http://lbs.amap.com)
 - [讯飞语音语音听写以及语音合成SDK](http://www.xfyun.cn)
-- 
