@@ -4,7 +4,7 @@
       
 演示视频
 -------------------------
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/GzdKMVn8avo/0.jpg)](https://www.youtube.com/embed/GzdKMVn8avo "CameraMaster")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/XZV129LJO4M/0.jpg)](https://www.youtube.com/watch?v=XZV129LJO4M)
 
       
 功能说明
