@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal|bottom"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="20dp" >
+
+    <TextView
+        android:id="@+id/id_textView_item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shaper_offlinemap_download_state_pause_rect"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/offlinemap_download_normal"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/id_textView_item2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_textView_item1"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/shaper_offlinemap_download_state_pause_rect"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/offlinemap_download_normal"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/id_textView_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_textView_item2"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/shaper_offlinemap_dialog_btn_rect"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

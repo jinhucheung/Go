@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res/com.imagine.go"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tool_bar_height"
+    android:layout_alignParentBottom="true"
+    android:alpha="0.8"
+    android:background="@color/white"
+    android:elevation="15dp" >
+
+    <!-- 导航按钮 -->
+
+    <ImageView
+        android:id="@+id/id_imageView_navi_navBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:onClick="onClick"
+        android:src="@drawable/ic_toolbar_nav" >
+    </ImageView>
+
+    <!-- 结束按钮 -->
+
+    <com.imagine.go.view.RippleLayout
+        android:id="@+id/id_rippleLayout_toolBar_exitBtn"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_toLeftOf="@+id/id_imageView_navi_navBtn"
+        android:layout_toStartOf="@+id/id_imageView_navi_navBtn"
+        android:clickable="true"
+        android:onClick="onClick"
+        ripple:duration="500"
+        ripple:radius="10dp"
+        ripple:rippleNums="1"
+        ripple:scale="3"
+        ripple:color="@color/btn_tool_bar_ripple" >
+
+        <TextView
+            android:id="@+id/id_textView_exitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/ic_toolbar_exit"
+            android:gravity="center"
+            android:text="@string/finish"
+            android:textColor="#2f3030"
+            android:textSize="12sp" />
+    </com.imagine.go.view.RippleLayout>
+
+    <!-- 全览按钮 -->
+
+    <com.imagine.go.view.RippleLayout
+        android:id="@+id/id_rippleLayout_toolBar_browseBtn"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_toEndOf="@+id/id_imageView_navi_navBtn"
+        android:layout_toRightOf="@+id/id_imageView_navi_navBtn"
+        android:clickable="true"
+        android:onClick="onClick"
+        ripple:duration="500"
+        ripple:radius="10dp"
+        ripple:rippleNums="1"
+        ripple:scale="3"
+        ripple:color="@color/btn_tool_bar_ripple" >
+
+        <TextView
+            android:id="@+id/id_textView_browseBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:drawablePadding="4dp"
+            android:drawableTop="@drawable/ic_toolbar_browse"
+            android:gravity="center"
+            android:text="@string/browse"
+            android:textColor="#2f3030"
+            android:textSize="12sp" />
+    </com.imagine.go.view.RippleLayout>
+
+</RelativeLayout>

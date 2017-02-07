@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_backgourd" >
+
+    <!-- 摄像层 -->
+
+    <FrameLayout
+        android:id="@+id/id_frameLayout_carmera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextureView
+            android:id="@+id/id_textureView_camera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <!-- 增强层 -->
+
+    <FrameLayout
+        android:id="@+id/id_frameLayout_ar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.imagine.go.ar.AugmentedNaviView
+            android:id="@+id/id_augmentedView_ar_navi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.imagine.go.ar.RadarRouteView
+            android:id="@+id/id_radarRouteView_radar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <!-- 导航按钮 -->
+
+    <ImageView
+        android:id="@+id/id_imageView_naviBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:alpha="0.8"
+        android:contentDescription="@null"
+        android:onClick="onClick"
+        android:src="@drawable/ic_ar_navi_start" />
+
+</RelativeLayout>

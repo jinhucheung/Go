@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"><shape android:shape="rectangle">
+            <stroke android:width="0.4px" android:color="@color/item_mgridview_divider" />
+
+            <corners android:radius="2dp" />
+
+            <gradient android:angle="270" android:endColor="#ffe8ecef" android:startColor="#ffe8ecef" />
+        </shape></item>
+    <item android:state_focused="true"><shape android:shape="rectangle">
+            <gradient android:angle="270.0" android:endColor="#ffe8ecef" android:startColor="#ffe8ecef" />
+
+            <corners android:radius="2dp" />
+
+            <stroke android:width="0.4px" android:color="@color/item_mgridview_divider" />
+        </shape></item>
+    <item><shape android:shape="rectangle">
+            <gradient android:angle="270.0" android:endColor="@color/white" android:startColor="@color/white" />
+
+            <corners android:radius="2dp" />
+
+            <stroke android:width="0.4px" android:color="@color/item_mgridview_divider" />
+        </shape></item>
+
+</selector>

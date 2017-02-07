@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xhdpi"
+    format="7"
+    timestamp="6666468946693"
+    token="1632126302166154703" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build timestamp="5294304990418" >
+        <artifact
+            location="/home/kumho/workspace/Go/go/build/outputs/apk/go-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="6666468946693" />
+
+</instant-run>

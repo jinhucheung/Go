@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/kumho/workspace/Go/material_menu_library/build/intermediates/res/merged/release/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 384,
+                    "endColumn": 50,
+                    "endOffset": 430
+                },
+                "from": {
+                    "file": "/home/kumho/workspace/Go/material_menu_library/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 50,
+                        "endOffset": 101
+                    }
+                }
+            }
+        ]
+    }
+]

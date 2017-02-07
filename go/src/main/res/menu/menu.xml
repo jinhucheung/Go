@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- ccar -->
+    <item
+        android:id="@+id/showRadar"
+        android:title="隐藏雷达图">
+    </item>
+    <item
+        android:id="@+id/showZoomBar"
+        android:title="隐藏缩放栏">
+    </item>
+
+</menu>

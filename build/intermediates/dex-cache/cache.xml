@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/kumho/workspace/Go/go/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.1_048af71aa97a00cabaa5c146cb3eefd467f85f24/classes.dex" />
+    </item>
+    <item
+        jar="/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/kumho/workspace/Go/go/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.1_bc63846b144f7bd8f91273f9186a575ec52c51df/classes.dex" />
+    </item>
+    <item
+        jar="/home/kumho/workspace/Go/go/libs/Msc.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4499f115c3f2e52dff1d30aae5cfed9aafac3a63">
+        <dex dex="/home/kumho/workspace/Go/go/build/intermediates/transforms/dex/debug/folders/1000/2/Msc_7dedf80f3ad8092290822ab31e3cad84dcaa48c8/classes.dex" />
+    </item>
+    <item
+        jar="/home/kumho/workspace/Go/go/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6141d5251d89685323220353d197171595aad22c">
+        <dex dex="/home/kumho/workspace/Go/go/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f889fdcc31e2547303e4e504e79559a348678ae0/classes.dex" />
+    </item>
+    <item
+        jar="/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/kumho/workspace/Go/go/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.1_a57c47519a48154a518030e32d6e7a876558e5bf/classes.dex" />
+    </item>
+    <item
+        jar="/home/kumho/lib/android/android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/kumho/workspace/Go/go/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.1_2dd0d5c52bc9d87543fd273cf096f3c8e13cf4d6/classes.dex" />
+    </item>
+    <item
+        jar="/home/kumho/workspace/Go/go/libs/AMap_Location_V2.4.1_20160414.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c2a48661c11bfafb2dea576904958420c2ad9e06">
+        <dex dex="/home/kumho/workspace/Go/go/build/intermediates/transforms/dex/debug/folders/1000/2/AMap_Location_V2.4.1_20160414_bbfc31af54ef5d408e55691095e45518db2f4412/classes.dex" />
+    </item>
+    <item
+        jar="/home/kumho/workspace/Go/go/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="0da001cd8ca09734e9a2aa3c912d1cde0733170e">
+        <dex dex="/home/kumho/workspace/Go/go/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_11b39c790a18fb1dc4f36a09090a9539210ab403/classes.dex" />
+    </item>
+    <item
+        jar="/home/kumho/workspace/Go/go/libs/AMap_Navi_v1.8.0_20160421.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="33cd64a2233ad4f3db2545c1564470187de0d051">
+        <dex dex="/home/kumho/workspace/Go/go/build/intermediates/transforms/dex/debug/folders/1000/2/AMap_Navi_v1.8.0_20160421_daa50d903d02abae63cd25078f11231771eddb32/classes.dex" />
+    </item>
+    <item
+        jar="/home/kumho/workspace/Go/go/libs/AMap_Search_V3.2.1_20160308.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f2ca076e4192ab39f1fae2e265b15e6005a5615d">
+        <dex dex="/home/kumho/workspace/Go/go/build/intermediates/transforms/dex/debug/folders/1000/2/AMap_Search_V3.2.1_20160308_968852870701a61ed1a5574a8f1799dd28143d1c/classes.dex" />
+    </item>
+    <item
+        jar="/home/kumho/workspace/Go/go/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/home/kumho/workspace/Go/go/build/intermediates/transforms/dex/debug/folders/1000/2/nineoldandroids-2.4.0_4b806ec6e63201eeb56240c090ee26cc6b4c09fb/classes.dex" />
+    </item>
+    <item
+        jar="/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/material_menu_library/unspecified/jars/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="088119e56bb3393dafefd7beefebc4315155cdf4">
+        <dex dex="/home/kumho/workspace/Go/go/build/intermediates/transforms/dex/debug/folders/1000/8/nineoldandroids-2.4.0_c152e7a26b37f7affef61817a165cf9f8abe1873/classes.dex" />
+    </item>
+    <item
+        jar="/home/kumho/workspace/Go/go/libs/AMap_3DMap_V3.3.1_20160419.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="b4f86608ad453f27dfbc7f8a51a2e13f4fc9f2c2">
+        <dex dex="/home/kumho/workspace/Go/go/build/intermediates/transforms/dex/debug/folders/1000/2/AMap_3DMap_V3.3.1_20160419_4ba0d1390e7c53567820f0c5e0ce03118b529df4/classes.dex" />
+    </item>
+
+</items>

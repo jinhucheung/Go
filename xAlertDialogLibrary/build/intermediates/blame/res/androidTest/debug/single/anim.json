@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/res/merged/androidTest/debug/anim/error_x_in.xml",
+        "source": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/bundles/debug/res/anim/error_x_in.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/res/merged/androidTest/debug/anim/modal_out.xml",
+        "source": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/bundles/debug/res/anim/modal_out.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/res/merged/androidTest/debug/anim/success_mask_layout.xml",
+        "source": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/bundles/debug/res/anim/success_mask_layout.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/res/merged/androidTest/debug/anim/error_frame_in.xml",
+        "source": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/bundles/debug/res/anim/error_frame_in.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/res/merged/androidTest/debug/anim/modal_in.xml",
+        "source": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/bundles/debug/res/anim/modal_in.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/res/merged/androidTest/debug/anim/success_bow_roate.xml",
+        "source": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/bundles/debug/res/anim/success_bow_roate.xml"
+    }
+]

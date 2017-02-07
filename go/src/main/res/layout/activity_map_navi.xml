@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/id_frameLayout_navi_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_backgourd"
+        android:focusable="false"
+        android:focusableInTouchMode="false" >
+
+        <com.amap.api.navi.AMapNaviView
+            android:id="@+id/navi_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <include
+        android:id="@+id/id_layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/content_activity_map_navi" />
+
+</RelativeLayout>

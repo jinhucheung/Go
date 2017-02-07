@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/seekbar_thumb_pressed.png",
+        "source": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/bundles/debug/res/drawable-hdpi-v4/seekbar_thumb_pressed.png"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/volumn_primary.9.png",
+        "source": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/bundles/debug/res/drawable-hdpi-v4/volumn_primary.9.png"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/seekbar_thumb_normal.png",
+        "source": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/bundles/debug/res/drawable-hdpi-v4/seekbar_thumb_normal.png"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/detail_icon_schedule_ball.png",
+        "source": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/bundles/debug/res/drawable-hdpi-v4/detail_icon_schedule_ball.png"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/volumn_front.9.png",
+        "source": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/bundles/debug/res/drawable-hdpi-v4/volumn_front.9.png"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/volumn_bg.9.png",
+        "source": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/bundles/debug/res/drawable-hdpi-v4/volumn_bg.9.png"
+    }
+]

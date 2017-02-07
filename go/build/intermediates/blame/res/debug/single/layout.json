@@ -1,0 +1,326 @@
+[
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/dialog_bottom.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/dialog_bottom.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/infowindow_activity_ar.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/infowindow_activity_ar.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/item_offlinemap_city.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/item_offlinemap_city.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/activity_offlinemap.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/activity_offlinemap.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/content_activity_map_navi.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/content_activity_map_navi.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/activity_user_defined_point.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/activity_user_defined_point.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/bar_tool_map_navi.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/bar_tool_map_navi.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/activity_ar.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/activity_ar.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/infowindow_activity_user_defined_point.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/infowindow_activity_user_defined_point.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/bar_title_ar_navi.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/bar_title_ar_navi.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/bar_tool_ar.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/bar_tool_ar.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/alert_dialog.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/xAlertDialogLibrary/unspecified/res/layout/alert_dialog.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/activity_ar_navi.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/activity_ar_navi.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/item_ar_marker.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/item_ar_marker.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/activity_map_navi.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/activity_map_navi.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/bar_title_weather.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/bar_title_weather.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/activity_weather.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/activity_weather.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/content_activity_map.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/content_activity_map.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/dialog_marker_ar.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/dialog_marker_ar.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/bar_tool_map_label_group.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/bar_tool_map_label_group.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/item_offlinemap_province.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/item_offlinemap_province.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/activity_map.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/activity_map.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/item_mgridview.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/item_mgridview.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/content_activity_weather_live.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/content_activity_weather_live.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/bar_title.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/bar_title.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/bar_tool_offlinemap_download.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/bar_tool_offlinemap_download.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/dialog_layers_selection.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/dialog_layers_selection.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/item_drawer.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/item_drawer.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/content_activity_ar.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/content_activity_ar.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/subitem_weather.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/subitem_weather.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/bar_tool_main.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/bar_tool_main.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/item_weather.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/item_weather.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/bar_title_map_navi.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/bar_title_map_navi.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/bar_title_offlinemap.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/bar_title_offlinemap.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/infowindow_activity_map.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/infowindow_activity_map.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/item_poi_tip.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/item_poi_tip.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/bar_tool_map.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/bar_tool_map.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/bar_title_user_defined_point.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/bar_title_user_defined_point.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/dialog_user_defined_point_info.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/dialog_user_defined_point_info.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/bar_search.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/bar_search.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/content_activity_offlinemap_allcity.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/content_activity_offlinemap_allcity.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/content_activity_main.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/content_activity_main.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/layout/content_activity_offlinemap_download.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/layout/content_activity_offlinemap_download.xml"
+    }
+]

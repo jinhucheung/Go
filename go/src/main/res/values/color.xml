@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_backgourd">#e9e9e9</color>
+    <color name="black">#0b0b0b</color>
+    <color name="lightgray">#e8e6e6</color>
+    <color name="white">#ffffff</color>
+    <color name="toolbar_text">#b7b4b4</color>
+    <color name="title_bar">#74b0cb</color>
+    <color name="btn_title_bar_ripple">#7097aa</color>
+    <color name="btn_tool_bar_ripple">#9ebdcb</color>
+    <color name="item_mgridview_divider">#9d9d9d</color>
+    <color name="walk_route">#4990fa</color>
+    <color name="weather_day">#74b0cb</color>
+    <color name="weather_night">#00618e</color>
+    <color name="offlinemap_hint_text">#7c7c7c</color>
+    <color name="item_normal_divider">#777978</color>
+    <color name="offlinemap_download_normal">#74b0cb </color>
+    <color name="offlinemap_download_disable"> #c6c5c5</color>
+    <color name="offlinemap_download_pause"> #7c7c7c</color>
+
+</resources>

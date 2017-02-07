@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/menu/menu.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/menu/main.xml"
+    }
+]

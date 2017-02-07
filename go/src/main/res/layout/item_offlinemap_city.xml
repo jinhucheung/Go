@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tprogressbar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/id_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp" >
+
+        <TextView
+            android:id="@+id/id_textView_cityName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/id_textView_downloadSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_textView_cityName"
+            android:layout_marginTop="2dp"
+            android:text=""
+            android:textColor="@color/offlinemap_hint_text"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/id_textView_downloadState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shaper_offlinemap_download_state_rect"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/offlinemap_download_normal"
+        android:textSize="12sp" />
+
+    <com.imagine.go.view.TextProgressBar
+        android:id="@+id/id_progerssBar_download"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/id_layout"
+        android:layout_marginTop="10dp"
+        tprogressbar:progress="0"
+        tprogressbar:progressBarHeight="1dp"
+        tprogressbar:progressColor="@color/offlinemap_download_normal"
+        tprogressbar:progressMax="100"
+        tprogressbar:progressNormalColor="@color/item_normal_divider"
+        tprogressbar:textColor="@color/offlinemap_download_normal" />
+
+</RelativeLayout>

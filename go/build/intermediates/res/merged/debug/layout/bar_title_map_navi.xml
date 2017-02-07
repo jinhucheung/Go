@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_layout_titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="10dp" >
+
+    <RelativeLayout
+        android:id="@+id/id_layout_turn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" >
+
+        <!-- 指示箭头 -->
+
+        <ImageView
+            android:id="@+id/id_imageView_navi_turn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_navi_turn_front" />
+
+        <!-- 当前距离提示 -->
+
+        <TextView
+            android:id="@+id/id_textView_navi_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_imageView_navi_turn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <!-- 分隔线 -->
+
+    <View
+        android:id="@+id/id_line"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/id_layout_turn"
+        android:layout_toRightOf="@+id/id_layout_turn"
+        android:background="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/id_layout_tip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/id_line"
+        android:layout_toRightOf="@+id/id_line" >
+
+        <!-- 当前道路名 -->
+
+        <com.imagine.go.view.MarqueeTextView
+            android:id="@+id/id_textView_navi_route"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+        <!-- 总距离 -->
+
+        <TextView
+            android:id="@+id/id_textView_navi_totalDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_textView_navi_route"
+            android:layout_marginLeft="45dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="13dp"
+            android:drawableLeft="@drawable/ic_navi_distance"
+            android:drawablePadding="2dp"
+            android:drawableStart="@drawable/ic_navi_distance"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <!-- 总时间 -->
+
+        <TextView
+            android:id="@+id/id_textView_navi_totalTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_textView_navi_route"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/id_textView_navi_totalDistance"
+            android:layout_toRightOf="@+id/id_textView_navi_totalDistance"
+            android:drawableLeft="@drawable/ic_navi_time"
+            android:drawablePadding="2dp"
+            android:drawableStart="@drawable/ic_navi_time"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

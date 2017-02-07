@@ -1,0 +1,238 @@
+[
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/warning_sigh.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/xAlertDialogLibrary/unspecified/res/drawable/warning_sigh.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_map_label_btn_oval.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_map_label_btn_oval.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_map_btn_rect.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_map_btn_rect.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_ar_toolbar_rect.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_ar_toolbar_rect.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/gradient_ar_location_text.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/gradient_ar_location_text.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shape_edittext_background.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/xAlertDialogLibrary/unspecified/res/drawable/shape_edittext_background.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/divider_dropdown.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/divider_dropdown.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/success_circle.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/xAlertDialogLibrary/unspecified/res/drawable/success_circle.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/gray_button_background.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/xAlertDialogLibrary/unspecified/res/drawable/gray_button_background.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/selector_mgridview_click.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/selector_mgridview_click.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/gradient_ar_location_line.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/gradient_ar_location_line.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/error_circle.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/xAlertDialogLibrary/unspecified/res/drawable/error_circle.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/warning_circle.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/xAlertDialogLibrary/unspecified/res/drawable/warning_circle.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/divider_transparent.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/divider_transparent.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_offlinemap_download_state_pause_rect.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_offlinemap_download_state_pause_rect.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/selector_checkbox.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/selector_checkbox.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_searbar_dropdown_listvivew.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_searbar_dropdown_listvivew.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/blue_button_background.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/xAlertDialogLibrary/unspecified/res/drawable/blue_button_background.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_navimap_mdestation_textview_rect.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_navimap_mdestation_textview_rect.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_ar_marker_btn_rect_b.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_ar_marker_btn_rect_b.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_map_btn_oval.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_map_btn_oval.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_offlinemap_dialog_btn_rect.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_offlinemap_dialog_btn_rect.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/selector_drawer_item_btn_click.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/selector_drawer_item_btn_click.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_infowindow.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_infowindow.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_ar_marker_btn_rect.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_ar_marker_btn_rect.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/progress_seekbar_holo_linght.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/xAlertDialogLibrary/unspecified/res/drawable/progress_seekbar_holo_linght.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/success_bow.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/xAlertDialogLibrary/unspecified/res/drawable/success_bow.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/progress_thumb_holo_linght.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/xAlertDialogLibrary/unspecified/res/drawable/progress_thumb_holo_linght.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_map_nav_btn_rect.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_map_nav_btn_rect.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_map_label_btn_oval_b.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_map_label_btn_oval_b.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_ar_marker_rect.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_ar_marker_rect.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/error_center_x.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/xAlertDialogLibrary/unspecified/res/drawable/error_center_x.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/selector_btn_text_deepen.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/selector_btn_text_deepen.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_offlinemap_download_toolbar_rect.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_offlinemap_download_toolbar_rect.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/red_button_background.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/xAlertDialogLibrary/unspecified/res/drawable/red_button_background.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_offlinemap_download_state_rect.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_offlinemap_download_state_rect.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/dialog_background.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/dialog_background.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_offlinemap_download_tip_rect.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_offlinemap_download_tip_rect.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/go/build/intermediates/res/merged/debug/drawable/shaper_searchbar_rect.xml",
+        "source": "/home/kumho/workspace/Go/go/src/main/res/drawable/shaper_searchbar_rect.xml"
+    }
+]

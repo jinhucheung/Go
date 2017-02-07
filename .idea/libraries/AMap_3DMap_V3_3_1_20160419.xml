@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AMap_3DMap_V3.3.1_20160419">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/go/libs/AMap_3DMap_V3.3.1_20160419.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

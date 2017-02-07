@@ -1,0 +1,317 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:2:1-199:12
+	package
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml
+		INJECTED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml
+		INJECTED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml
+		INJECTED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:8:5-11:58
+MERGED from [Go:xAlertDialogLibrary:unspecified] /home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/xAlertDialogLibrary/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:22.2.1] /home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:11:9-56
+	android:targetSdkVersion
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:10:9-38
+		INJECTED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml
+		INJECTED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:9:9-35
+		INJECTED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml
+		INJECTED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:14:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:19:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:21:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:26:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:28:5-89
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:28:22-86
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:30:5-79
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:30:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:33:5-75
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:33:22-72
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:35:22-76
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:36:5-73
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:36:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:38:5-81
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:38:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:39:5-68
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:39:22-65
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:42:5-71
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:42:22-68
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:44:5-79
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:44:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:47:5-65
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:47:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:49:5-60
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:49:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:50:5-70
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:50:19-67
+uses-feature#0x00020000
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:51:5-53:35
+	android:glEsVersion
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:52:9-41
+	android:required
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:53:9-32
+application
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:55:5-197:19
+MERGED from [Go:material_menu_library:unspecified] /home/kumho/workspace/Go/go/build/intermediates/exploded-aar/Go/material_menu_library/unspecified/AndroidManifest.xml:6:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/kumho/workspace/Go/go/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:59:9-41
+	android:allowBackup
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:57:9-35
+	android:icon
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:58:9-45
+	android:theme
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:60:9-40
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:56:9-49
+meta-data#com.amap.api.v2.apikey
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:63:9-65:64
+	android:value
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:65:13-61
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:64:13-50
+service#com.amap.api.location.APSService
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:68:9-69:19
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:68:18-65
+activity#com.imagine.go.activity.MainActivity
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:72:9-84:20
+	android:screenOrientation
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:76:13-49
+	android:label
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:75:13-45
+	android:windowSoftInputMode
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:78:13-64
+	android:configChanges
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:74:13-48
+	android:theme
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:77:13-43
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:73:13-64
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:79:13-83:29
+action#android.intent.action.MAIN
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:80:17-69
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:80:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:82:17-77
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:82:27-74
+activity#com.imagine.go.activity.MapActivity
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:87:9-99:20
+	android:screenOrientation
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:91:13-49
+	android:label
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:90:13-45
+	android:windowSoftInputMode
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:93:13-64
+	android:configChanges
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:89:13-48
+	android:theme
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:92:13-43
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:88:13-63
+intent-filter#android.intent.action.MAP+android.intent.category.DEFAULT
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:94:13-98:29
+action#android.intent.action.MAP
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:95:17-68
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:95:25-65
+category#android.intent.category.DEFAULT
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:97:17-76
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:97:27-73
+activity#com.imagine.go.activity.MapNaviActivity
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:102:9-114:20
+	android:screenOrientation
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:106:13-49
+	android:label
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:105:13-45
+	android:windowSoftInputMode
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:108:13-64
+	android:configChanges
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:104:13-48
+	android:theme
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:107:13-50
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:103:13-67
+intent-filter#android.intent.action.MAPNavi+android.intent.category.DEFAULT
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:109:13-113:29
+action#android.intent.action.MAPNavi
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:110:17-72
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:110:25-69
+activity#com.imagine.go.activity.MixActivity
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:116:9-127:20
+	android:screenOrientation
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:119:13-49
+	android:label
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:118:13-45
+	android:windowSoftInputMode
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:121:13-64
+	android:theme
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:120:13-43
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:117:13-63
+intent-filter#android.intent.action.AR+android.intent.category.DEFAULT
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:122:13-126:29
+action#android.intent.action.AR
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:123:17-67
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:123:25-64
+activity#com.imagine.go.activity.MixNaviActivity
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:130:9-141:20
+	android:screenOrientation
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:133:13-49
+	android:label
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:132:13-45
+	android:windowSoftInputMode
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:135:13-64
+	android:theme
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:134:13-49
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:131:13-67
+intent-filter#android.intent.action.ARMix+android.intent.category.DEFAULT
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:136:13-140:29
+action#android.intent.action.ARMix
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:137:17-70
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:137:25-67
+activity#com.imagine.go.activity.WeatherActivity
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:144:9-155:20
+	android:screenOrientation
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:147:13-49
+	android:label
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:146:13-45
+	android:windowSoftInputMode
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:149:13-64
+	android:theme
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:148:13-43
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:145:13-67
+intent-filter#android.intent.action.Weather+android.intent.category.DEFAULT
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:150:13-154:29
+action#android.intent.action.Weather
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:151:17-72
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:151:25-69
+activity#com.imagine.go.activity.OfflineMapActivity
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:158:9-169:20
+	android:screenOrientation
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:161:13-49
+	android:label
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:160:13-45
+	android:windowSoftInputMode
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:163:13-64
+	android:theme
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:162:13-43
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:159:13-70
+intent-filter#android.intent.action.OfflineMap+android.intent.category.DEFAULT
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:164:13-168:29
+action#android.intent.action.OfflineMap
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:165:17-75
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:165:25-72
+activity#com.imagine.go.activity.UserDefinedPointActivity
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:172:9-183:20
+	android:screenOrientation
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:175:13-49
+	android:label
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:174:13-45
+	android:windowSoftInputMode
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:177:13-64
+	android:theme
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:176:13-43
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:173:13-76
+intent-filter#android.intent.action.GeoPointSign+android.intent.category.DEFAULT
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:178:13-182:29
+action#android.intent.action.GeoPointSign
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:179:17-77
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:179:25-74
+activity#com.imagine.go.activity.WelcomeActivity
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:186:9-196:20
+	android:screenOrientation
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:189:13-49
+	android:label
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:188:13-45
+	android:windowSoftInputMode
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:190:13-64
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:187:13-67
+intent-filter#android.intent.action.Welcome+android.intent.category.DEFAULT
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:191:13-195:29
+action#android.intent.action.Welcome
+ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:192:17-72
+	android:name
+		ADDED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:192:25-69
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/kumho/workspace/Go/go/src/main/AndroidManifest.xml:2:1-199:12 reason: com.balysv.materialmenu requested WRITE_EXTERNAL_STORAGE

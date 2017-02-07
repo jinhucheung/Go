@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- RippleLayout -->
+    <declare-styleable name="RippleLayout">
+        <attr name="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="duration" format="integer" />
+        <attr name="rippleNums" format="integer" />
+        <attr name="scale" format="float" />
+    </declare-styleable>
+
+    <!-- ArcMenu -->
+    <!-- 居中水平平铺模式启用 -->
+    <attr name="mainButton_layout_marginBottom" value="dimesion" />
+    <attr name="childButton_padding_LeftAndRight" value="dimesion" />
+    <attr name="childButton_padding_TopAndBottom" value="dimesion" />
+    <attr name="childButton_gap" value="dimesion" />
+    <attr name="mainButton_open_img" value="reference" />
+    <attr name="mainButton_close_img" value="reference" />
+    <!-- 居中水平平铺模式启用 -->
+    <attr name="position">
+        <enum name="left_top" value="0" />
+        <enum name="left_bottom" value="1" />
+        <enum name="right_top" value="2" />
+        <enum name="right_bottom" value="3" />
+        <enum name="center_bottom" value="4" />
+    </attr>
+
+    <declare-styleable name="ArcMenu">
+        <attr name="position" />
+        <attr name="radius" />
+        <attr name="mainButton_layout_marginBottom" />
+        <attr name="childButton_padding_LeftAndRight" />
+        <attr name="childButton_padding_TopAndBottom" />
+        <attr name="childButton_gap" />
+        <attr name="mainButton_open_img" />
+        <attr name="mainButton_close_img" />
+    </declare-styleable>
+
+    <!-- ViewPagerIndicator -->
+    <declare-styleable name="ViewPagerIndicator">
+
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+        <!-- Style of the icon indicator's views. -->
+        <attr name="vpiIconPageIndicatorStyle" format="reference" />
+        <!-- Style of the line indicator. -->
+        <attr name="vpiLinePageIndicatorStyle" format="reference" />
+        <!-- Style of the title indicator. -->
+        <attr name="vpiTitlePageIndicatorStyle" format="reference" />
+        <!-- Style of the tab indicator's tabs. -->
+        <attr name="vpiTabPageIndicatorStyle" format="reference" />
+        <!-- Style of the underline indicator. -->
+        <attr name="vpiUnderlinePageIndicatorStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="CirclePageIndicator">
+
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" format="boolean" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation" />
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" />
+        <!-- View background -->
+        <attr name="android:background" />
+    </declare-styleable>
+
+    <!-- TextProgressBar -->
+    <attr name="progressBarHeight" value="dimesion" />
+
+    <declare-styleable name="TextProgressBar">
+        <attr name="textColor" format="color" />
+        <attr name="progressColor" format="color" />
+        <attr name="progressNormalColor" format="color" />
+        <attr name="progressBarHeight" />
+        <attr name="progressMax" format="integer" />
+        <attr name="progress" format="integer" />
+    </declare-styleable>
+
+</resources>

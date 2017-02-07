@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res/com.imagine.go"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true" >
+
+    <!-- 搜索标签 -->
+
+    <include
+        android:id="@+id/id_arcmenu_map_labelBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/bar_tool_map_label_group" />
+
+    <!-- 导航按钮 -->
+
+    <ImageView
+        android:id="@+id/id_imageView_map_navBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_layout_navibar"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.8"
+        android:background="@drawable/shaper_map_nav_btn_rect"
+        android:clickable="true"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_map_nav"
+        android:visibility="invisible" />
+
+    <!-- 工具栏 -->
+
+    <RelativeLayout
+        android:id="@+id/id_layout_navibar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tool_bar_height"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.8"
+        android:background="@color/white"
+        android:elevation="15dp" >
+
+        <!-- 标签按钮 -->
+
+        <ImageView
+            android:id="@+id/id_imageView_labelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_toolbar_search" />
+
+        <!-- 主页按钮 -->
+
+        <com.imagine.go.view.RippleLayout
+            android:id="@+id/id_rippleLayout_toolBar_indexBtn"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_toLeftOf="@+id/id_imageView_labelBtn"
+            android:layout_toStartOf="@+id/id_imageView_labelBtn"
+            android:clickable="true"
+            ripple:duration="500"
+            ripple:radius="10dp"
+            ripple:rippleNums="1"
+            ripple:scale="3"
+            ripple:color="@color/btn_tool_bar_ripple" >
+
+            <TextView
+                android:id="@+id/id_textView_indexBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/ic_toolbar_index"
+                android:gravity="center"
+                android:text="@string/index"
+                android:textColor="#2f3030"
+                android:textSize="12sp" />
+        </com.imagine.go.view.RippleLayout>
+        <!-- 实景按钮 -->
+
+        <com.imagine.go.view.RippleLayout
+            android:id="@+id/id_rippleLayout_toolBar_cameraBtn"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
+            android:layout_toEndOf="@+id/id_imageView_labelBtn"
+            android:layout_toRightOf="@+id/id_imageView_labelBtn"
+            android:clickable="true"
+            ripple:duration="500"
+            ripple:radius="10dp"
+            ripple:rippleNums="1"
+            ripple:scale="3"
+            ripple:color="@color/btn_tool_bar_ripple" >
+
+            <TextView
+                android:id="@+id/id_textView_cameraBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:drawablePadding="4dp"
+                android:drawableTop="@drawable/ic_toolbar_camera"
+                android:gravity="center"
+                android:text="@string/camera"
+                android:textColor="#2f3030"
+                android:textSize="12sp" />
+        </com.imagine.go.view.RippleLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

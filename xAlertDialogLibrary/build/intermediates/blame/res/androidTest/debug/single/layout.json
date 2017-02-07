@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/res/merged/androidTest/debug/layout/alert_dialog.xml",
+        "source": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/bundles/debug/res/layout/alert_dialog.xml"
+    },
+    {
+        "merged": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/res/merged/androidTest/debug/layout/activity_main.xml",
+        "source": "/home/kumho/workspace/Go/xAlertDialogLibrary/build/intermediates/bundles/debug/res/layout/activity_main.xml"
+    }
+]

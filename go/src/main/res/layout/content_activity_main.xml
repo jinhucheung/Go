@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_backgourd"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.imagine.go.activity.MainActivity" >
+
+    <!-- 搜索栏 -->
+
+    <include
+        android:id="@+id/id_layout_searchbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        layout="@layout/bar_search" />
+
+    <!-- 搜索标签组 -->
+
+    <ScrollView
+        android:id="@+id/id_scrollView_nineGridView"
+        android:layout_width="wrap_content"
+        android:layout_height="348dp"
+        android:layout_below="@+id/id_layout_searchbar"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="18dp"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <com.imagine.go.view.MGridView
+            android:id="@+id/id_mgridView_nineGridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="0.0dp"
+            android:listSelector="@null"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0.0dp" />
+    </ScrollView>
+
+    <!-- 工具栏 -->
+
+    <include
+        android:id="@+id/id_layout_navibar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        layout="@layout/bar_tool_main" />
+
+</RelativeLayout>
